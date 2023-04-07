@@ -1,0 +1,24 @@
+{
+  "name": "html-data-include",
+  "version": "1.0.0",
+  "description": "Use html data-include attribute to include html partials into webpage. Sample: <div data-include=\"header.html\"></div>",
+  "main": "html-data-include.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/programmingmentor/html-data-include.git"
+  },
+  "keywords": [
+    "html",
+    "include",
+    "partials"
+  ],
+  "author": "Programming Mentor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/programmingmentor/html-data-include/issues"
+  },
+  "homepage": "https://github.com/programmingmentor/html-data-include#readme"
+}
