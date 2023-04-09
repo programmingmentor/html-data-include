@@ -74,14 +74,16 @@ How webpage will be presented in the browser:
 </html>
 ```
 
-
 ## Limitations
 
 The custom data-include attribute relies on the Fetch API to fetch the external HTML content. This means that it requires a web server to work, and it won't work if you're opening your HTML file directly in the browser (e.g., using the file:/// protocol). You need to serve the files through a local or remote web server.
 
 This solution is also subject to the browser's same-origin policy, which means that the external HTML files must be served from the same domain and protocol as the main HTML file, unless CORS headers are properly configured on the server.
 
-Copyright by Vyacheslav Koldovskyy, programmingmentor.com
-
 ## License
 This project is released under the MIT License. See the LICENSE file for more details.
+
+Copyright by Vyacheslav Koldovskyy, Programming Mentor
+https://programmingmentor.com
+https://github.com/programmingmentor
+

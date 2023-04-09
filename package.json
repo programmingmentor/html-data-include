@@ -1,7 +1,7 @@
 {
   "name": "html-data-include",
   "version": "1.0.0",
-  "description": "Use html data-include attribute to include html partials into webpage. Sample: <div data-include=\"header.html\"></div>",
+  "description": "Use html data-include attribute to include html partials into webpage. Sample: <div data-include=\"header.partial.html\"></div>",
   "main": "html-data-include.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
