@@ -2,7 +2,7 @@
 
 The custom data-include attribute allows you to include HTML content from external files directly into your HTML page using JavaScript. This approach is useful for including reusable components, such as headers and footers, without the need for server-side processing or JavaScript frameworks.
 
-Usage
+## Usage
 
 1. Add any html element to your HTML file with the `data-include` attribute, specifying the path to the external HTML file you want to include:
 
@@ -12,8 +12,14 @@ Usage
 <footer data-include="footer.partial.html"></footer>
 ```
 
-2. Add "html-data-include.js" to your JavaScript files and add it to your HTML file to load and insert the external HTML content:
+2. Add "html-data-include.js" to your project:
 
+Option 1 - Use CDN, add this line before closing `<body>` tag in your html:
+```html
+    <script src="https://unpkg.com/html-data-include@1.0.0/html-data-include.js"></script>
+```
+
+Option 2: - Copy "html-data-include.js" file to your project (ex. "js" folder) and add it before closing `<body>` tag in your html:
 ```html
 <script src="js/html-data-include.js"></script>
 ```
