@@ -16,7 +16,7 @@ The custom data-include attribute allows you to include HTML content from extern
 
 Option 1 - Use CDN, add this line before closing `<body>` tag in your html:
 ```html
-    <script src="https://unpkg.com/html-data-include@1.1.1/html-data-include.js"></script>
+    <script src="https://unpkg.com/html-data-include@2.2.2/html-data-include.js"></script>
 ```
 
 Option 2: - Copy "html-data-include.js" file to your project (ex. "js" folder) and add it before closing `<body>` tag in your html:
@@ -25,6 +25,9 @@ Option 2: - Copy "html-data-include.js" file to your project (ex. "js" folder) a
 ```
 
 3. The external HTML content will be fetched and inserted into the page, replacing the whole html element with the content of file from `data-include` attribute.
+
+4. Handling `partialsLoaded` event. As partials are loaded asynchronously, `html-data-include` emits custom event `partialsLoaded` when all partials were processed and inserted into DOM (or failed to load).
+
 
 ### Example
 
@@ -78,6 +81,15 @@ How webpage will be presented in the browser:
 </body>
 
 </html>
+```
+
+Handling `partialsLoaded` event:
+
+```js
+document.addEventListener("partialsLoaded", () => {
+  // code runs when all partials loaded
+   
+});
 ```
 
 ## Limitations
