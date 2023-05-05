@@ -16,7 +16,7 @@ The custom data-include attribute allows you to include HTML content from extern
 
 Option 1 - Use CDN, add this line before closing `<body>` tag in your html:
 ```html
-    <script src="https://unpkg.com/html-data-include@2.2.2/html-data-include.js"></script>
+    <script src="https://unpkg.com/html-data-include@3.3.3/html-data-include.js"></script>
 ```
 
 Option 2: - Copy "html-data-include.js" file to your project (ex. "js" folder) and add it before closing `<body>` tag in your html:

@@ -1,6 +1,6 @@
 {
   "name": "html-data-include",
-  "version": "2.2.2",
+  "version": "3.3.3",
   "description": "Use html data-include attribute to include html partials into webpage. Sample: <div data-include=\"header.partial.html\"></div>",
   "main": "html-data-include.js",
   "scripts": {
